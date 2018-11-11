@@ -20,9 +20,9 @@
         <div class="margin-pading0 container-fluid ">
             
             <div class="col-12 blue margin-pading0">
-                
-               <div class="element-menu col-1 offset-8"><a href="#">Acceuil</a></div>
-               <div class="element-menu col-1"><a href="#">Missions</a></div>
+                <div class="element-menu col-3 offset-2"><img src="<?php echo IMAGES_URL."/"; ?>/ClimateLogoHeader.png" alt=""></div>
+               <div class="element-menu col-1 offset-2"><a href="http://localhost/">Acceuil</a></div>
+               <div class="element-menu col-1"><a href="http://localhost/category/">Missions</a></div>
                <div class="element-menu col-1"><a href="#">Succès</a></div> 
             </div>
              

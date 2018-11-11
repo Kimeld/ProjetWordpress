@@ -1,0 +1,39 @@
+.citations{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.citations span{
+    font-size: 25px;
+}
+
+.orange{
+    color: #ff8f00;
+}
+
+.categories{
+    height: 80px;
+    background-color: #bdd3de;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    transition-duration: 0.5s;
+}
+
+.categories:hover {
+    background-color: #ff8f00;
+    transition-duration: 0.5s;
+}
+
+.categories a{
+      color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+
+.blocCategorie{
+    margin-top: 20px;
+}
+

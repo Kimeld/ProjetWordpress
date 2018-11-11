@@ -1,0 +1,65 @@
+.citations{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.citations span{
+    font-size: 25px;
+}
+
+.orange{
+    color: #ff8f00;
+}
+
+.white{
+    color: aliceblue;
+}
+
+.block{
+    margin-top: 30px;
+}
+
+.blocArticle{
+    height: 350px;
+   background-color: #3F4866;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+
+.inlineblock{
+    display: inline-block
+}
+
+.favorite{
+    width: 20px;
+}
+.profile{
+    width: 15px;
+}
+
+.blocArticle div div span{
+    font-size: 20px;
+}
+
+.bouttonPub{
+    height: 50px;
+    background-color: #ff8f00; 
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+.infoCata{
+    margin-top: 150px;
+}
+
+.bouttonPub a{
+      color: white;
+    text-decoration: none;
+    font-size: 25px;
+}

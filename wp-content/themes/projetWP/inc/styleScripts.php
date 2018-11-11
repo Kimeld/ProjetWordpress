@@ -48,6 +48,18 @@ wp_register_style( 'main_style', CSS_URL.'/main.css' );
 // appel du style dans la page
 wp_enqueue_style('main_style');
     
+    
+wp_register_style( 'categorie_style', CSS_URL.'/categorie.css' );
+
+wp_enqueue_style('categorie_style');   
+    
+wp_register_style( 'index_style', CSS_URL.'/index.css' );
+
+wp_enqueue_style('index_style');  
+    
+wp_register_style( 'single_style', CSS_URL.'/single.css' );
+
+wp_enqueue_style('single_style'); 
 
 }
 
