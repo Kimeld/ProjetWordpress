@@ -1,52 +1,63 @@
-.citations{
+.citations {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-.citations span{
+.citations span {
     font-size: 25px;
 }
 
-.orange{
+.orange {
     color: #ff8f00;
 }
 
-.white{
+.white {
     color: aliceblue;
 }
 
-.block{
+.block {
     margin-top: 30px;
 }
 
-.blocArticle{
+.blocArticle {
     height: 350px;
-   background-color: #3F4866;
+    background-color: #3F4866;
     display: inline-block;
     border-radius: 10px;
     padding-top: 20px;
-    
+
 }
 
-.inlineblock{
+.inlineblock {
     display: inline-block
 }
 
-.favorite{
+.favorite {
     width: 20px;
 }
-.profile{
+
+.profile {
     width: 15px;
 }
 
-.blocArticle div div span{
+.blocArticle div div span {
     font-size: 20px;
 }
 
-.bouttonPub{
+.bouttonPub {
     height: 50px;
-    background-color: #ff8f00; 
+    background-color: #ff8f00;
     margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.bouttonRetour {
+    height: 50px;
+    background-color: #ff8f00;
+    margin-top: 40px;
+    margin-bottom: 0px;
     border-radius: 10px;
     text-align: center;
     padding-top: 5px;
@@ -54,12 +65,29 @@
 
 
 
-.infoCata{
+.infoCata {
     margin-top: 150px;
 }
 
-.bouttonPub a{
-      color: white;
+.bouttonPub a {
+    color: white;
     text-decoration: none;
     font-size: 25px;
+}
+
+.bouttonPub span {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bouttonRetour span {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.inlineblock span {
+    font-size: 15px;
 }

@@ -60,6 +60,11 @@ wp_enqueue_style('index_style');
 wp_register_style( 'single_style', CSS_URL.'/single.css' );
 
 wp_enqueue_style('single_style'); 
+    
+wp_register_script( 'script_categorie', JS_URL.'/script_categorie.js' );
+
+wp_enqueue_style('script_categorie');    
+    
 
 }
 

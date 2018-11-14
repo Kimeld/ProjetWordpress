@@ -26,8 +26,8 @@
     transition-duration: 0.5s;
 }
 
-.categories a{
-      color: white;
+.categories span{
+     color: white;
     text-decoration: none;
     font-size: 28px;
 }
@@ -37,3 +37,24 @@
     margin-top: 20px;
 }
 
+.contenuActive {
+    position: absolute;
+    transform: translateX(0vw);
+    transition-property: all;
+    transition-duration: 0.8s;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+}
+
+.contenuNoActive {
+    position: absolute;
+    transform: translateX(100vw) scale(0.5);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+.none{
+    display: none;
+}
