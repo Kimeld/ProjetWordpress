@@ -1,43 +1,29 @@
-.citations{
-    text-align: center;
-    margin-top: 100px;
-}
-
-.citations span{
-    font-size: 25px;
-}
-
-.orange{
-    color: #ff8f00;
-}
-
 .categories{
-    height: 80px;
-    background-color: #bdd3de;
+    height: 50px;
+    width: 100px;
+    color: #ff8f00;
     display: inline-block;
-    border-radius: 10px;
     text-align: center;
-    padding-top: 15px;
+    padding: 20px;
+    margin: 20px;
     transition-duration: 0.5s;
+    border-bottom: 1px #ff8f00 solid;
+    cursor: pointer;
 }
 
-.categories:hover {
-    background-color: #ff8f00;
+.categories:hover{
+    color: #0E364A;
     transition-duration: 0.5s;
+    border-bottom: 1px #0E364A solid;
 }
 
-.categories span{
-     color: white;
-    text-decoration: none;
-    font-size: 28px;
-}
 
 
 .blocCategorie{
     margin-top: 20px;
 }
 
-.contenuActive {
+.contenuActive{
     position: absolute;
     transform: translateX(0vw);
     transition-property: all;
@@ -46,7 +32,7 @@
     transition-timing-function: ease-in-out;
 }
 
-.contenuNoActive {
+.contenuNoActive{
     position: absolute;
     transform: translateX(100vw) scale(0.5);
     opacity: 0;
@@ -57,4 +43,82 @@
 
 .none{
     display: none;
+}
+
+
+.white a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.description{
+    font-size: 10px;
+}
+
+.missions{
+    text-align: center;
+}
+
+.containerLaCategorie{
+    margin-bottom: 300px;
+}
+
+.container-categorie{
+    margin-bottom: 300px;
+}
+
+.bouttonPub{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15px;
+}
+
+.bouttonRetour{
+    height: 50px;
+    width: 100px;
+    color: #ff8f00;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 170px;
+    transition-duration: 0.5s;
+    border-bottom: 1px #ff8f00 solid;
+    cursor: pointer;
+}
+
+.bouttonRetour:hover{
+    color: #0E364A;
+    transition-duration: 0.5s;
+    border-bottom: 1px #0E364A solid;
+}
+
+
+
+
+
+.goalProgress {
+	background: #f7f7f7;
+	padding: 0px;
+  border-radius: 10px;
+  margin-top: 165px
+}
+div.progressBar {
+	background: #ff8f00;
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Univers', 'helvetica', 'arial', sans-serif;
+	letter-spacing: -1px;
+	font-weight: 300;
+	padding: 1px;
+	display: block;
+	overflow: hidden;
+	width: 10px;
+    border-radius: 10px
+}
+span.goalAmount {
+	display: none;
+	text-indent: -9999px;
 }

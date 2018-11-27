@@ -1,11 +1,12 @@
 .article{
     margin-top: 50px;
     margin-bottom: 50px;
+    box-shadow: 2px 2px 5px 0px #cfcfcf;
 }
 
 .img{
     background-color: aquamarine;
-    height: 500px;
+    width: 100%;
 }
 
 .black{
@@ -18,4 +19,15 @@
 
 .articleText{
      margin-top: 50px;
+}
+
+.description{
+    color:#ff8f00;
+    text-align: left;
+}
+
+.details{
+height: 800px;
+overflow: auto;
+
 }

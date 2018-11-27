@@ -64,7 +64,10 @@ wp_enqueue_style('single_style');
 wp_register_script( 'script_categorie', JS_URL.'/script_categorie.js' );
 
 wp_enqueue_style('script_categorie');    
-    
+
+wp_register_style( 'frontpage_style', CSS_URL.'/frontpage.css' );
+
+wp_enqueue_style('frontpage_style'); 
 
 }
 

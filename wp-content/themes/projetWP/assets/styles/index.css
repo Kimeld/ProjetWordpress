@@ -1,93 +1,92 @@
-.citations {
-    text-align: center;
-    margin-top: 50px;
+.white{
+    font-size: 20px;
+    color: #fff;
+        font-weight: 800;
 }
 
-.citations span {
-    font-size: 25px;
-}
-
-.orange {
-    color: #ff8f00;
-}
-
-.white {
-    color: aliceblue;
-}
-
-.block {
+.block{
     margin-top: 30px;
 }
 
-.blocArticle {
+.blocArticle{
     height: 350px;
-    background-color: #3F4866;
     display: inline-block;
-    border-radius: 10px;
     padding-top: 20px;
+    position: relative;
+    margin-right: 12px;
+    margin-left: 12px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
 }
 
-.inlineblock {
-    display: inline-block
+.blocArticle:hover{
+  
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+   
 }
 
-.favorite {
+.inlineblock{
+    display: inline-block;
+}
+
+.favorite{
     width: 20px;
 }
 
-.profile {
+.profile{
     width: 15px;
 }
 
-.blocArticle div div span {
+.blocArticle div div span{
     font-size: 20px;
 }
 
-.bouttonPub {
-    height: 50px;
-    background-color: #ff8f00;
-    margin-top: 10px;
-    border-radius: 10px;
+.bouttonPub{
+    display:inline-block;
+    background-color: #ff8f00; 
     text-align: center;
-    padding-top: 5px;
-}
-
-.bouttonRetour {
-    height: 50px;
-    background-color: #ff8f00;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-
-
-.infoCata {
-    margin-top: 150px;
-}
-
-.bouttonPub a {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.bouttonPub span {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.bouttonRetour span {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-
-}
-
-.inlineblock span {
+    border: solid 1px #ff8f00;
     font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;*/
+}
+
+.bouttonPub a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bouttonPub span{
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.infoCata{
+    margin-top: -45px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.inlineblock span{
+    font-size: 15px;
+}
+
+.footer{
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    background-color: #0E364A;
 }

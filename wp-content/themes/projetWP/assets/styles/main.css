@@ -4,9 +4,8 @@ body{
 }
 
 .blue{
-    background-color: #3F4866;
-    height: 100px;
-    
+    height: 300px;
+    background-image: url(../images/cloud.jpeg);
 }
 
 .margin-pading0{
@@ -24,8 +23,131 @@ body{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    
+    transition-duration: 1s;
 }
 
 .element-menu a:hover{
     color: #ff8f00;
+}
+
+.banniere{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banniere h2{
+    color: #ff9f00;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+
+img{
+    width: 800px;
+    height: 100%;
+}
+
+.logo img{
+    width: 150px;
+}
+
+
+/* Call to action "Faire un don gratuitement" */ 
+.calltoaction{
+    border: solid 1px #ff8f00;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+.calltoaction:hover a{
+    color: white;
+}
+
+
+.calltoaction:hover{
+    background-color: #ff8f00;
+    color: white;
+    transition: all 280ms ease-in-out;
+}
+
+.calltoaction a{
+    text-decoration:none;
+    color:#ff8f00;
+}
+
+/* popup css for all */ 
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    height: 100vw;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 30px auto;
+    padding-top: 80px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 65%;
+   
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 35px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #E00034;
+}
+
+.popup .content {
+    
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+    height: 80%;
+    text-align: center;
+}
+
+@media(min-width: 0px) and (max-width: 671px) {
+   .element-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 1s;
+}
+    .logo img{
+    width: 90px;
+        height: 20px;
+}
+    
+.blue{
+    height: 400px;
+    background-image: url(../images/cloud.jpeg);
+}
+}
